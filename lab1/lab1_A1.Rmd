@@ -1,0 +1,23 @@
+---
+title: "L1_A1"
+author: "William Bergekrans"
+date: '2020-12-22'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Import the data. 
+library(readr) # Package to read data with. 
+data <- read.csv("optdigits.csv") # Import csv file. 
+```
+
+```{r divide data, include=FALSE}
+# Divide the data into training, validation and test sets.
+set.seed(12345) # Set seed for reproducible results. 
+
+```
+
+
+
